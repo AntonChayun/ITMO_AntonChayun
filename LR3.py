@@ -62,7 +62,7 @@ btn.place(relx=0.5, rely=0.7, anchor="center")
 
 pygame.mixer.init()
 pygame.mixer.music.load("8bit-lipstick[rebalanced].wav")
-pygame.mixer.music.set_volume(0.3)   # 0.0 (тихо) — 1.0 (максимум)
+pygame.mixer.music.set_volume(0.3)   
 pygame.mixer.music.play(-1)   # -1 = зациклить
 
 
